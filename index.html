@@ -36,7 +36,27 @@
           <div id="date">28 Jun 2020</div>
         </div>
 
-        <div><img src="./images/icon-share.svg" alt="Share" class="Shareicon"></div>
+        <div class="share-wrapper">
+          <button class="share-btn" type="button" aria-label="Share">
+            <img src="./images/icon-share.svg" alt="">
+          </button>
+            <div id="share-popover" class="share-popover"  hidden>
+            <span class="share-label">Share</span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://your-page"
+              target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">
+              <img src="./images/icon-facebook.svg" alt="facebook">
+            </a>
+            <a href="https://twitter.com/intent/tweet?url=https://your-page"
+              target="_blank" rel="noopener noreferrer" aria-label="Share on X/Twitter">
+              <img src="./images/icon-twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.pinterest.com/pin/create/button/?url=https://your-page"
+              target="_blank" rel="noopener noreferrer" aria-label="Share on Pinterest">
+              <img src="./images/icon-pinterest.svg" alt="printerest">
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
